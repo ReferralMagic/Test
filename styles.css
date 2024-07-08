@@ -1,0 +1,57 @@
+/*Style.css */
+
+body {
+	front-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+header {
+	background-color: #4abe4e;
+	color: white;
+	text-align: center;
+	padding: 1em;	
+}
+
+main{
+	padding: 1em;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;	
+}
+
+input[type="text"], input[type="url"]{
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+	padding: 0.5em;
+	background-color: #4CAF50;
+    color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;  
+}
+
+button:hover{
+	background-color: #45a049;
+}
+
+#links-list ul {
+	list-style-type: none;
+	padding: 0;
+	}
+
+#links-list li{
+	background-color: #f9f9f9;
+	margin: 0.5em 0;
+	padding: 1em;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}

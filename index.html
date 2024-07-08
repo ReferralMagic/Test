@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refferal link</title>
+  <link rel="stylesheet" href="stylesheet.css">
+ </head>
+<body>
+   <header>
+     <h1>Refferal link </h1>
+   </header>
+<main>
+   <section id="submit-link">
+     <h2>Dépose un lien </h2>
+	 <form id="linkform">
+	   <label for="userName">Nom :</label>
+	   <input type="text" id="username" name="userName" required>
+	   <label for="referralLink">Lien de parrainage :</label>
+	   <input type="url" id="referralLink" name="referralLink" required>
+	   <button type="submit">Soumettre</button>
+	   </form>
+	 </section>
+	 <section id="links-list">
+	   <h2>Liens de Parrainage</h2>
+	   <ul id="linksContainer"></ul>
+	 </section>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
