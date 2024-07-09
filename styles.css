@@ -13,9 +13,9 @@ header {
 	text-align: center;
 	padding: 1em;	
 }
-.logo-container{
-	height: 50px;
-	width: 30px;
+.logo-container {
+	 display: flex;
+	align-items: center;
 }
 .Logo {
 	height: 50px;
@@ -33,7 +33,7 @@ header {
     background-color: #3e8e41;
 }
 
-.navigation{
+.navigation {
 	color: white;
 	text-decoration: none;
 	padding: 0.5em 1em;
