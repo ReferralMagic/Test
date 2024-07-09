@@ -51,12 +51,15 @@ form {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5em;	
+	max-width: 400px;
+	margin: 0 auto;
 }
 
 input[type="text"], input[type="url"]{
   padding: 0.5em;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 100%;
 }
 
 button {
@@ -65,7 +68,8 @@ button {
         color: white;
 	border: none;
 	border-radius: 10px;
-	cursor: pointer;  
+	cursor: pointer; 
+	
 }
 
 button:hover{
