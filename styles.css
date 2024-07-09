@@ -20,7 +20,7 @@ header {
 .logo {
 	height: 70px;
 	width: auto;
-	border-radius: 65px;
+	border-radius: 50px;
 }
 
 .banner {
@@ -35,7 +35,7 @@ header {
 	border-radius: 6px
 }
 .navigation {
-	display: flex;
+	display: center;
 	justify-content: center;
 	gap: 1em;
 	margin-left: auto;
