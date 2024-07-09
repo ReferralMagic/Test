@@ -32,7 +32,7 @@ header {
 
 .navigation a:hover {
     background-color: #0057fa;
-	border-radius: 10px
+	border-radius: 6px
 }
 .navigation {
 	display: flex;
@@ -44,8 +44,8 @@ header {
 	color: white;
 	text-decoration: none;
 	padding: 0.5em 1em;
-	background-color: #45a049;
-	border-radius: 4px;
+	background-color: #3b7df7;
+	border-radius: 6px;
 	transition: background-color 0.3s ease;
 }
 	
