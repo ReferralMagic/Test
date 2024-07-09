@@ -20,7 +20,7 @@ header {
 .logo {
 	height: 70px;
 	width: auto;
-	border-radius: 80px;
+	border-radius: 50%;
 }
 
 .banner {
@@ -31,10 +31,16 @@ header {
 }
 
 .navigation a:hover {
-    background-color: #3b7df7;
+    background-color: #0057fa;
+	border-radius: 10px
 }
-
 .navigation {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+	margin-left: auto;
+}
+.navigation a{
 	color: white;
 	text-decoration: none;
 	padding: 0.5em 1em;
