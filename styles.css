@@ -13,7 +13,7 @@ header {
 	text-align: center;
 	padding: 1em;	
 }
-.Logo{
+.Logo {
 	height: 50px;
 }
 
@@ -23,6 +23,9 @@ header {
 	justify-content: space-between;
 	
 }
+
+.navigation a:hover {
+    background-color: #3e8e41;
 	
 main{
 	padding: 1em;
