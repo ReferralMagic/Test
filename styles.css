@@ -13,9 +13,14 @@ header {
 	text-align: center;
 	padding: 1em;	
 }
+.logo-container{
+	height: 50px;
+	width: auto;
+}
 .Logo {
-	height: 10px;
+	height: 50px;
 	border-radius: 20px;
+	width: auto;
 }
 
 .banner {
