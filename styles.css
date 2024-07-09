@@ -29,11 +29,11 @@ banner {
 	
 }
 
-.navigation a:hover {
+navigation a:hover {
     background-color: #3e8e41;
 }
 
-.navigation {
+navigation {
 	color: white;
 	text-decoration: none;
 	padding: 0.5em 1em;
