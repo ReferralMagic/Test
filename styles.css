@@ -8,7 +8,7 @@ body {
 	}
 
 header {
-	background-color: #4abe4e;
+	background-color: #3b7df7;
 	color: white;
 	text-align: center;
 	padding: 1em;	
@@ -18,8 +18,9 @@ header {
         align-items: center;
 }
 .logo {
-	height: 50px;
+	height: 70px;
 	width: auto;
+	border-radius: 10px;
 }
 
 .banner {
@@ -61,7 +62,7 @@ input[type="text"], input[type="url"]{
 button {
 	padding: 0.5em;
 	background-color: #4CAF50;
-    color: white;
+        color: white;
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;  
