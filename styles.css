@@ -20,7 +20,7 @@ header {
 .logo {
 	height: 70px;
 	width: auto;
-	border-radius: 10px;
+	border-radius: 80px;
 }
 
 .banner {
@@ -31,7 +31,7 @@ header {
 }
 
 .navigation a:hover {
-    background-color: #3e8e41;
+    background-color: #3b7df7;
 }
 
 .navigation {
