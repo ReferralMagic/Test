@@ -15,6 +15,7 @@ header {
 }
 .Logo {
 	height: 50px;
+	border-radius: 20px;
 }
 
 .banner {
@@ -26,8 +27,18 @@ header {
 
 .navigation a:hover {
     background-color: #3e8e41;
+}
+
+.navigation{
+	color: white;
+	text-decoration: none;
+	padding: 0.5em 1em;
+	background-color: #45a049;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
 	
-main{
+main {
 	padding: 1em;
 }
 
