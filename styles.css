@@ -13,16 +13,16 @@ header {
 	text-align: center;
 	padding: 1em;	
 }
-.logo-container {
+logo-container {
 	 display: flex;
 	align-items: center;
 }
-.Logo {
+Logo {
 	height: 50px;
 	width: auto;
 }
 
-.banner {
+banner {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
